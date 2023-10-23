@@ -3,7 +3,7 @@ version: "1.0.0"
 services:
   - name: httpbin-service
     hosts:
-      - httpbin
+      - api7.ai
     upstream:
       name: httpbin
       nodes:
